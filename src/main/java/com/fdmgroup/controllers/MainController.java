@@ -67,7 +67,7 @@ public class MainController {
 		TypedQuery<Player> queryAllPlayers = entityManager.createQuery("SELECT p FROM Player p ORDER BY p.playerId ASC", Player.class);
 		List<Player> listPlayers = queryAllPlayers.getResultList();
 		for(Player eachPlayer: listPlayers){
-			System.out.println(eachPlayer.getPlayerId()+", "+eachPlayer.getPlayerName()+", "+eachPlayer.getTeam().getTeamName());
+			System.out.println(eachPlayer.getPlayerId()+", "+eachPlayer.getPlayerName()+" is in team "+eachPlayer.getTeam().getTeamName());
 		}
 		
 		

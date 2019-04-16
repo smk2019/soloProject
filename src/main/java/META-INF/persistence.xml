@@ -3,6 +3,7 @@
 	<persistence-unit name="soloprojectwk4" transaction-type="RESOURCE_LOCAL">
 		<class>com.fdmgroup.entities.Team</class>
 		<class>com.fdmgroup.entities.Player</class>
+		<class>com.fdmgroup.entities.User</class>
 		<properties>
 			<property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:xe"/>
 			<property name="javax.persistence.jdbc.user" value="Trainee1"/>
