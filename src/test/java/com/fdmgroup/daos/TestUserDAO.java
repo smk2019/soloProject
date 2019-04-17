@@ -17,7 +17,7 @@ import com.fdmgroup.entities.User;
 
 public class TestUserDAO {
 
-	private EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("soloprojectwk4");
+	private EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("soloprojectfinal");
 	private EntityManager entityManager = entityManagerFactory.createEntityManager();
 
 	@Before
