@@ -5,7 +5,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
 
-@Entity
+@Entity(name="SC_ORDER")
 public class Order {
 
 		@Id
